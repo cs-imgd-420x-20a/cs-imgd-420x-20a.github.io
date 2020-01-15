@@ -18,7 +18,7 @@ Assignments and examples for this class will primarily use GLSL / JavaScript, ho
 This is an experimental course being taught for the first time; as such this outline is subject to change. I am happy to make minor additions if there are related topics of interest that are not menttioned here.  
 
 ### Week 1: Getting Started / Review
-1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16. 
+1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16.  
 1/16 - *GLSL waveforms and GLSL Live Coding*.   
   
 
@@ -31,11 +31,11 @@ This is an experimental course being taught for the first time; as such this out
 1/30 - Reaction Diffusion, Convolution
 
 ### Week 4: Video feedback + Rendering to Texture
-2/3 - 
+2/3 -  
 2/7 - TBA (I'll be at [http://iclc.livecodenetwork.org/2020/schedule.html](ICLC)).
 
 ### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
-2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows. 
+2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows.  
 2/13 - Navier-Stokes and other fluid simulations  
 
 ### Week 6: Interaction in Digital Arts
@@ -48,15 +48,15 @@ This is an experimental course being taught for the first time; as such this out
 2/28 - READING / MAKEUP DAY  
 
 ### Week 8: Final Project Presentations &amp; Wrapup  
-3/2 - Wrap-up, preliminary final project critiques 
+3/2 - Wrap-up, preliminary final project critiques  
 3/5 - Final Project Presentations  
 
 # Grades
 Your course grade comes from three parts:
 
-Assignments (50%)
-Final Project (40%)
-Quizzes, in-class assignments, attendance (10%)
+Assignments (50%)  
+Final Project (40%)  
+Quizzes, in-class assignments, attendance (10%)  
 
 There will most likely be 4–5 assignments in the course in addition to the final project. I reserve the right to adjust the above if needed. 
 
