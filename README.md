@@ -11,6 +11,8 @@ Students will explore analog physical systems (such as fluids and video feedback
 
 All students will be expected to maintain a course website that contains links to all assignments. Videos should be posted to "permanent" locations (Vimeo, YouTube etc.) and embedded / linked in your course website. Details on this website can be found in the [onboarding assignment](./onboarding.md). 
 
+Assignments and examples for this class will primarily use GLSL / JavaScript, however, other environments and systems for GPU programming will be discussed.
+
 ## Course Outline
 
 This is an experimental course being taught for the first time; as such this outline is subject to change. I am happy to make minor additions if there are related topics of interest that are not menttioned here.  
@@ -33,7 +35,7 @@ This is an experimental course being taught for the first time; as such this out
 2/7 - TBA (I'll be at [http://iclc.livecodenetwork.org/2020/schedule.html](ICLC)).
 
 ### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
-2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows  
+2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows. 
 2/13 - Navier-Stokes and other fluid simulations  
 
 ### Week 6: Interaction in Digital Arts
