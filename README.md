@@ -32,7 +32,7 @@ This is an experimental course being taught for the first time; as such this out
 
 ### Week 4: Video feedback + Rendering to Texture
 2/3 -  
-2/7 - TBA (I'll be at [http://iclc.livecodenetwork.org/2020/schedule.html](ICLC)).
+2/7 - TBA (I'll be at [the International Conference on Live Coding](http://iclc.livecodenetwork.org/2020/schedule.html).
 
 ### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
 2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows.  
