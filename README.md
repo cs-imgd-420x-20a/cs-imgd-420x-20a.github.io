@@ -7,23 +7,24 @@ This course focuses on the digital simulation of physical systems and strategies
 - The history of analog interactive visuals  
 - Interaction techniques for controlling digital simulations  
 
-Students will explore analog physical systems (such as fluids and video feedback) and use these explorations to guide the development of digital simulations. All students will be expected to maintain a course website that contains links to all assignments. Videos should be posted to "permanent" locations (Vimeo, YouTube etc.) and embedded / linked in your course website. Details on this website can be found in the [onboarding assignment](). 
+Students will explore analog physical systems (such as fluids and video feedback) and use these explorations to guide the development of digital simulations. The class is explicitly designed to encourage both technical and aesthetic exploration.  
+
+All students will be expected to maintain a course website that contains links to all assignments. Videos should be posted to "permanent" locations (Vimeo, YouTube etc.) and embedded / linked in your course website. Details on this website can be found in the [onboarding assignment](./onboarding.md). 
 
 ## Course Outline
 
-As this is an experimental course being taught for the first time; as such this outline is subject to change. I am happy to make minor additions if there are related topics of interest that are not menttioned here.
+This is an experimental course being taught for the first time; as such this outline is subject to change. I am happy to make minor additions if there are related topics of interest that are not menttioned here.  
 
 ### Week 1: Getting Started / Review
-1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](). Both are due 1/17 (the second day of class).  
-1/16 - *GLSL waveforms and GLSL Live Coding*. Assignment: 
-I. Read / experiment with [http://thebookofshaders.com](The Book of Shaders) up through the lesson on [https://thebookofshaders.com/11/](Noise)  
-II. Create a one-minute animation using Shawn Lawson's [https://shawnlawson.github.io/The_Force/](The Force) environment. Your animation can be through-composed (no interaction) or performed via live-coding or other interaction techniques (mouse etc.). Post a link to your animation along with your shader code to your course website.   
+1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Both are due 1/17 (the second day of class).   
+1/16 - *GLSL waveforms and GLSL Live Coding*.   
+  
 
 ### Week 2: Analog / Digital Video Synthesis, Rendering to Textures
 1/20 - *History and Techniques of Analog Video Synthesis*. Assignment: Complete the analog synthesis (Vidiot) tutorial. Create a one minute video showing an interesting parameter space you found to explore using the Vidiot. Work towards recreating this sketch in GLSL, by implementing a minimum of eight Vidiot features. Some of these will be simple (noise, modulation) some will be trickier (video input, waveforms, audio input).  
 1/23 - *Video input / processing, Analog video feedback, no-input performances*.  
 
-### Week 3: Automata, Reaction Diffusion, and Rendering to Texttures
+### Week 3: Automata, Reaction Diffusion
 1/27 - 1D / 2D Automata, Rendering to Texture
 1/30 - Reaction Diffusion, Convolution
 
@@ -53,8 +54,16 @@ Your course grade comes from three parts:
 
 Assignments (50%)
 Final Project (40%)
-Quizzes and in-class assignments (10%)
+Quizzes, in-class assignments, attendance (10%)
 
 There will most likely be 4–5 assignments in the course in addition to the final project. I reserve the right to adjust the above if needed. 
 
 I don’t accept late homework, doing so is unfair to your fellow students and to course staff. It is much better to submit partially complete work than nothing at all. If you don’t have the homework done on time you will receive a zero for that assignment. You are expected to complete the assignment and have it deployed by the due date.
+
+# Attendance
+Attendance is required. Please notified the instructor in advance if you must miss class. Missing more than two sessions will result in an automatic grade of NR.
+
+# Academic Integrity
+The goal of this class is to both create aesthetically interesting content and understand the code used to create it. In order to understand the code, you need to author it yourself. Copying and pasting code is not allowed in this class, unless explicitly stated by the instructor. If you have a question about this, ask the instructor!!
+
+Collaboration is encouraged in this class. There are many ways in which you can assist others without giving them code and answers. Providing low-level implemetation details (small code fragments that contribute to, but don't complete on their own, major portions of assignments) is acceptable. For example, showing how to call the `smoothsttep()` function in GLSL.
