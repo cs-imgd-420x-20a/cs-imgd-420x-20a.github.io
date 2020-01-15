@@ -16,7 +16,7 @@ All students will be expected to maintain a course website that contains links t
 This is an experimental course being taught for the first time; as such this outline is subject to change. I am happy to make minor additions if there are related topics of interest that are not menttioned here.  
 
 ### Week 1: Getting Started / Review
-1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Both are due 1/17 (the second day of class).   
+1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16. 
 1/16 - *GLSL waveforms and GLSL Live Coding*.   
   
 
