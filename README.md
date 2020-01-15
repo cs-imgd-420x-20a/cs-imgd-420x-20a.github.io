@@ -23,7 +23,7 @@ This is an experimental course being taught for the first time; as such this out
   
 
 ### Week 2: Analog / Digital Video Synthesis, Rendering to Textures
-1/20 - *History and Techniques of Analog Video Synthesis*. Assignment: Complete the analog synthesis (Vidiot) tutorial. Create a one minute video showing an interesting parameter space you found to explore using the Vidiot. Work towards recreating this sketch in GLSL, by implementing a minimum of eight Vidiot features. Some of these will be simple (noise, modulation) some will be trickier (video input, waveforms, audio input).  
+1/20 - *History and Techniques of Analog Video Synthesis*.   
 1/23 - *Video input / processing, Analog video feedback, no-input performances*.  
 
 ### Week 3: Automata, Reaction Diffusion
