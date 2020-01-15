@@ -39,7 +39,7 @@ This is an experimental course being taught for the first time; as such this out
 2/13 - Navier-Stokes and other fluid simulations  
 
 ### Week 6: Interaction in Digital Arts
-2/17 - Guest lecture with [https://creativecoding.soe.ucsc.edu/angus/](Angus Forbes) on interacting with fluid simulations  
+2/17 - Guest lecture with [(Angus Forbes](https://creativecoding.soe.ucsc.edu/angus/) on interacting with fluid simulations  
 2/20 - OSC / MIDI / Mapping strategies for digital arts practice  
 
 ### Week 7: CUDA & OpenCL 
