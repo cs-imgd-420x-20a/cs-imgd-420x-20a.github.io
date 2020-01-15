@@ -19,7 +19,7 @@ This is an experimental course being taught for the first time; as such this out
 
 ### Week 1: Getting Started / Review
 1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16.  
-1/16 - *GLSL waveforms and GLSL Live Coding*.   
+1/16 - *GLSL Live Coding*.   
   
 
 ### Week 2: Analog / Digital Video Synthesis, Rendering to Textures
