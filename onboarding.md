@@ -2,7 +2,7 @@
 
 This assignment counts towards the quizzes / in-class assignments portion of your grade.
 
-1. First, check your email for an invite to the class Slack workspace. *All course announcements will be via Slack*. You must sign up ASAP for this workspace and check it rgularly; in addition it will hopefully be a great place to ask questions and receive help. All questions regarding class content should be publicly asked in Slack whenever possible so that your classmates can a) potentially answer b) learn from any provided answer.
+1. First, check your email for an invite to the class Slack workspace. *All course announcements will be via Slack*. You must sign up ASAP for this workspace and check it regularly; in addition it will hopefully be a great place to ask questions and receive help. All questions regarding class content should be publicly asked in Slack whenever possible so that your classmates can a) potentially answer b) learn from any provided answer.
 
 2. Create a public website for all work completed in the course. The homepage for this website can be extremely minimal (potentially just a list of links); however, each assignment will generally require you to provide both text and video documentation of your work. Anybody should be able to visit your course website and quickly find this information. Once you have a URL for this website, please make a pull request on the main course website repo adding your link to the websites.md file.
 
