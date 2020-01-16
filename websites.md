@@ -2,7 +2,7 @@
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [Alp Piskin](https://alppiskin.github.io/420X/)  
-[put your name here](http://put_your_link_here.org)  
+[Andrew Johnston](http://enderj.github.io/cs420x/)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
