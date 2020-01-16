@@ -2,7 +2,7 @@
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
-[put your name here](http://put_your_link_here.org)  
+[Diana Kumykova](https://dkumykova.github.io/cs420x/)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
