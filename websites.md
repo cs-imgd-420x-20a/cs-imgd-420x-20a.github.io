@@ -14,3 +14,4 @@
 [put your name here](http://put_your_link_here.org)  
 [Kai Yan](https://github.com/aceyan/kai-cs-imgd-420x)  
 [put your name here](http://put_your_link_here.org)  
+[Josh Desmond](https://joshdesmond.github.io/Showcase/)
