@@ -19,7 +19,7 @@ This is an experimental course being taught for the first time; as such this out
 
 ### Week 1: Getting Started / Review
 1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16.  
-1/16 - *GLSL Live Coding*.  Assignment:  I. Read / experiment with [http://thebookofshaders.com](The Book of Shaders) up through the lesson on [https://thebookofshaders.com/11/](Noise). There may be a quiz on this on 1/20. II. Complete [./shader_live_coding.md](Shader Live Coding Assignment), also due 1/20.
+1/16 - *GLSL Live Coding*.  Assignment:  I. Read / experiment with [The Book of Shaders](http://thebookofshaders.com) up through the lesson on [Noise](https://thebookofshaders.com/11/). There may be a quiz on this on 1/20. II. Complete [Shader Live Coding Assignment](./shader_live_coding.md) also due 1/20.
 
 ### Week 2: Analog / Digital Video Synthesis, Rendering to Textures
 1/20 - *History and Techniques of Analog Video Synthesis*.   

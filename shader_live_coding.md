@@ -1,6 +1,6 @@
 # Assignment 2 - Shader Live Coding
 
-- Create a one-minute or longer animation using Shawn Lawson's [https://shawnlawson.github.io/The_Force/](The Force) environment. Your animation can be through-composed (no interaction) by relying on the the `time` uniform, or performed via live-coding or other interaction techniques (mouse etc.). 
+- Create a one-minute or longer animation using Shawn Lawson's [The Force](https://shawnlawson.github.io/The_Force/) environment. Your animation can be through-composed (no interaction) by relying on the the `time` uniform, or performed via live-coding or other interaction techniques (mouse etc.). 
 
 - Write a paragraph (150–200 words) that describes your aesthetic intent and what you were interested in exploring technically. I encourage you to focus on simple ideas (dots, grids, etc.), although a crescendo that peaks with total pixel chaos is always tempting... 
 
