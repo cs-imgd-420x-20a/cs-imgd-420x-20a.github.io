@@ -29,7 +29,7 @@ Resources:
 - [WebGL Fragment Shader Template](./webgl_template.md)
   
 ### Week 3: Automata, Reaction Diffusion, Video Feedback
-1/27 - 1D / 2D Automata, Rendering to Texture
+1/27 - 1D / 2D Automata, Rendering to Texture  
 1/30 - Reaction Diffusion, Convolution
 
 ### Week 4: Video feedback + Rendering to Texture
