@@ -23,7 +23,7 @@ This is an experimental course being taught for the first time; as such this out
 
 ### Week 2: Analog / Video Synthesis
 1/20 - *History and Techniques of Analog Video Synthesis*. [Notes](./notes.day3.md).   
-Assignment: [Analog Video Synthesis -> Digital Video Synthesis](./analog_to_digital.md)  
+Assignment: [Analog Video Synthesis -> Digital Video Synthesis](./analog_to_digital.md). Due 1/30 by start of class.  
 Resources:  
 - [Vidiot Tutorial](./vidiot_tutorial.md)
 - [WebGL Fragment Shader Template](./webgl_template.md)
