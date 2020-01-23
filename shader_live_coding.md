@@ -18,3 +18,9 @@ Grading Rubric
 - 10% Visual Aesthetics. Is there a discernible theme in the work? What constraints are in place (limited color-palette, limited number of shapes etc.)? 
 
 This assignment will count for 10–12.5% of your final grade, depending on whether we do four or five assignments in the course. Please take time to ensure that spelling / grammar are correct and that the assignment is linked / posted / hostted correctly so that you don't lose any easy points.
+
+You might consider these classic abstract animations that we watched in class as sources of inspiration for doing a formal study:
+- [Hans Richter - Rhythmus 21](https://vimeo.com/42339457)
+- [Oskar Fischinger - An Optical Poem](https://www.youtube.com/watch?v=_kTbt07DZZA)
+- [Norman McLaren - Dots](https://www.youtube.com/watch?v=E3-vsKwQ0Cg)
+- [Norman McLaren - Synchrony](https://www.youtube.com/watch?v=UmSzc8mBJCM)
