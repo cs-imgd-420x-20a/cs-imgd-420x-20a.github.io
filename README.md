@@ -19,15 +19,17 @@ This is an experimental course being taught for the first time; as such this out
 
 ### Week 1: Getting Started / Review
 1/15 - *Basic Intro to WebGL / Shader programmming*. Assignment:  Complete the [onboarding assignment](./onboarding.md). Due 1/16.  
-1/16 - *GLSL Live Coding*.   
+1/16 - *GLSL Live Coding*.  Assignment:  I. Read / experiment with [The Book of Shaders](http://thebookofshaders.com) up through the lesson on [Noise](https://thebookofshaders.com/11/). There may be a quiz on this on 1/20. II. Complete [Shader Live Coding Assignment](./shader_live_coding.md) also due 1/20.
+
+### Week 2: Analog / Video Synthesis
+1/23 - *History and Techniques of Analog Video Synthesis*. [Notes](./notes.day3.md).   
+Assignment: [Analog Video Synthesis -> Digital Video Synthesis](./analog_to_digital.md). Due 1/30 by start of class.  
+Resources:  
+- [Vidiot Tutorial](./vidiot_tutorial.md)
+- [WebGL Fragment Shader Template](./webgl_template.md)
   
-
-### Week 2: Analog / Digital Video Synthesis, Rendering to Textures
-1/20 - *History and Techniques of Analog Video Synthesis*.   
-1/23 - *Video input / processing, Analog video feedback, no-input performances*.  
-
-### Week 3: Automata, Reaction Diffusion
-1/27 - 1D / 2D Automata, Rendering to Texture
+### Week 3: Automata, Reaction Diffusion, Video Feedback
+1/27 - 1D / 2D Automata, Rendering to Texture  
 1/30 - Reaction Diffusion, Convolution
 
 ### Week 4: Video feedback + Rendering to Texture

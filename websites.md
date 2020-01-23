@@ -1,5 +1,11 @@
+[Mikel Matticoli](https://matticoli.github.io/420x)  
 [put your name here](http://put_your_link_here.org)  
+<<<<<<< HEAD
 [Ben Dorr](http://badorr0709.github.io)  
+=======
+[put your name here](http://put_your_link_here.org)  
+[Alp Piskin](https://alppiskin.github.io/420X/)  
+>>>>>>> 584a1457b6c84ea667676609cd7649ba0806276e
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
@@ -7,10 +13,8 @@
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
+[John](https://zhouck0811.wixsite.com/wpi-420x)
 [put your name here](http://put_your_link_here.org)  
 [put your name here](http://put_your_link_here.org)  
-[put your name here](http://put_your_link_here.org)  
-[put your name here](http://put_your_link_here.org)  
-[put your name here](http://put_your_link_here.org)  
-[put your name here](http://put_your_link_here.org)  
+[Kai Yan](https://github.com/aceyan/kai-cs-imgd-420x)  
 [put your name here](http://put_your_link_here.org)  
