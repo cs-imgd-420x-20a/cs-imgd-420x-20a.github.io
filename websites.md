@@ -1,5 +1,5 @@
 [Mikel Matticoli](https://matticoli.github.io/420x)  
-[put your name here](http://put_your_link_here.org)  
+[Samuel Silver](http://www.puresilverbytes.dev)  
 [put your name here](http://put_your_link_here.org)  
 [Alp Piskin](https://alppiskin.github.io/420X/)  
 [put your name here](http://put_your_link_here.org)  
