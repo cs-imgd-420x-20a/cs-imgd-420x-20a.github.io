@@ -22,7 +22,7 @@ This is an experimental course being taught for the first time; as such this out
 1/16 - *GLSL Live Coding*.  Assignment:  I. Read / experiment with [The Book of Shaders](http://thebookofshaders.com) up through the lesson on [Noise](https://thebookofshaders.com/11/). There may be a quiz on this on 1/20. II. Complete [Shader Live Coding Assignment](./shader_live_coding.md) also due 1/20.
 
 ### Week 2: Analog / Video Synthesis
-1/20 - *History and Techniques of Analog Video Synthesis*. [Notes](./notes.day3.md).   
+1/23 - *History and Techniques of Analog Video Synthesis*. [Notes](./notes.day3.md).   
 Assignment: [Analog Video Synthesis -> Digital Video Synthesis](./analog_to_digital.md). Due 1/30 by start of class.  
 Resources:  
 - [Vidiot Tutorial](./vidiot_tutorial.md)
