@@ -18,7 +18,7 @@ RULE #3: Signal typically flows according to the lines on the Vidiot, **except w
 	• The two white buttons near the top of the interface are “down” (pressed). This ensures proper vertical and horizontal synchronization.  
 	• If you’re using the video monitor, make sure input “A” is selected; this is the button all the way to the right of the front monitor panel.  
 
-2. OK, our first task is to get vertical lines on the screen. You’ll want to reference the Luma Processor description for, found on page 9.
+2. OK, our first task is to get vertical lines on the screen. You’ll want to reference the Luma Processor description for, found on page 9.  
 	• We’ll be using the “Luma” output of the video synth, which only controls the brightness / contrast of the output… no color here! So we’e looking for black / white lines.  
 	• The Luma processor is on the left side of the synth, you can find a guide to the interface on page 9 of the manual.
 	• We want to modulate our signal using a waveform to create our horizontal lines. Inside of the Luma processor is an eight-position switch which enables us to select the source (waveform) for our modulation (widget #37 in the manual on page 9). Choose the seventh option, the vertical triangle (this is one before the furthest clockwise option. Make sure you don’t turn it all the way clockwise!!!  
