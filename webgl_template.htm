@@ -93,7 +93,7 @@
       
       // find a pointer to the uniform "time" in our fragment shader
       uTime = gl.getUniformLocation( program, 'time' ) 
-      uRes = gl.getUniformLocation( program, 'resolution' )
+      const uRes = gl.getUniformLocation( program, 'resolution' )
       gl.uniform2f( uRes, window.innerWidth, window.innerHeight )
 
       // get position attribute location in shader

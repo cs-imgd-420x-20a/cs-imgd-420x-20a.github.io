@@ -66,10 +66,10 @@ Place a call to our new `makeTexture` function in our `window.onload`, right bef
 
 Two things we need to do to finish this off. First, we'll need to add a uniform giving our fragment shader the resolution of our canvases. We've made it easy on ourselves; since both our canvases are the same resolution we only need one `vec2` uniform for this.
 
-Place the following code in our `window.onload` script, right under where we initialize the `time` uniform.
+Place the following code in our `window.onload` script, right under where we initialize the `time` uniform. Note: this code is already in the updated webgl template.
 
 ```js
-uRes = gl.getUniformLocation( program, 'resolution' )
+const uRes = gl.getUniformLocation( program, 'resolution' )
 gl.uniform2f( uRes, gl.drawingBufferWidth, gl.drawingBufferHeight )
 ```
 
