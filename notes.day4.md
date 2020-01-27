@@ -148,7 +148,7 @@ void main() {
 }
 ```
 
-*Using a better blur*
+*Using a better blur*  
 Let's steal [a better blur function](https://github.com/Jam3/glsl-fast-gaussian-blur/blob/master/5.glsl). Note we don't need the final line of code in this example, as it's specific to a technology called glslify that we'll discuss later in the course. 
 
 The function needs to be passed our sampler, the current pixel coordinates, the resolution of the shader, and a blur direction. It uses a gaussian distribution to calculate the blur in five passes.
