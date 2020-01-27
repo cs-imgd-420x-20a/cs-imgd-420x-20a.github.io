@@ -18,10 +18,11 @@
   <!-- fragment shader -->
   <script id='fragment' type='x-shader/x-fragment'>
     uniform mediump float time;
+    uniform mediump vec2 resolution;
     void main() {
       gl_FragColor = vec4( 
-        gl_FragCoord.x / 640.0, 
-        gl_FragCoord.y / 480.0, 
+        gl_FragCoord.x / resolution.x, 
+        gl_FragCoord.y / resolution.y, 
         mod(time/100.,1.), 
         1.0 
       );
@@ -89,6 +90,8 @@
       
       // find a pointer to the uniform "time" in our fragment shader
       uTime = gl.getUniformLocation( program, 'time' ) 
+      uRes = gl.getUniformLocation( program, 'resolution' )
+      gl.uniform2f( uRes, window.innerWidth, window.innerHeight )
 
       // get position attribute location in shader
       var position = gl.getAttribLocation( program, 'a_position' )
