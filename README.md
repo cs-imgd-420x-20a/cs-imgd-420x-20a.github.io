@@ -29,7 +29,7 @@ Resources:
 - [WebGL Fragment Shader Template](./webgl_template.md)
   
 ### Week 3: Textures, Video, and Video Feedback
-1/27 - Using textures, live video input. [Notes](./notes.day4.md)
+1/27 - Using textures, live video input. [Notes](./notes.day4.md)  
 1/30 - Video feedback, motion blurs etc.
 
 ### Week 4: Automata, Reaction Diffusion, and Rendering to Texture
