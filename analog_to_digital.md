@@ -22,7 +22,9 @@
 
 - Play your animation for a classmate (this can be coordinated via Slack). Write a paragraph that describes the feedback of your classmate and whether or not it matched your expectations... and of course it's totally fine if it doesn't match them (and possibly much more interesting!). Feel free to include feedback from addition classmates / other people if you like, but only one source of feedback is required.
 
-- Create a webpage containing a link to your video (hosted at a permanent location such as Vimeo or Youtube), your shader code (this can be a link to a GitHub file or you can inline it on the page), your summary paragraph, the images/video clips you took from your session with the Vidiot, and the paragraph about the feedback you received. Add a link to this webpage from your personal course website (and make sure you've done the pull request in the onboarding assignment if you haven't already).  
+- Create a webpage containing a link to your video (hosted at a permanent location such as Vimeo or Youtube), your shader code (this can be a link to a GitHub file or you can inline it on the page), your summary paragraph, the images/video clips you took from your session with the Vidiot, and the paragraph about the feedback you received. Add a link to this webpage from your personal course website (and make sure you've done the pull request in the onboarding assignment if you haven't already). 
+
+- Due January 30th by the start of class.
 
 Grading Rubric
 ---
