@@ -43,7 +43,7 @@
 
   <script type='text/javascript'>
     // kinda global variables... upvalues to each closure of each function in this script tag
-    let gl, uTime, uRes
+    let gl, uTime, uRes, drawProgram
 
     const size = 768
     window.onload = function() {
@@ -94,25 +94,25 @@
       gl.compileShader( fragmentShader )
 
       // create shader program, which links vertex and fragment shaders
-      const program = gl.createProgram()
-      gl.attachShader( program, vertexShader )
-      gl.attachShader( program, fragmentShader )
+      drawProgram = gl.createProgram()
+      gl.attachShader( drawProgram, vertexShader )
+      gl.attachShader( drawProgram, fragmentShader )
       // report any errors in the fragment shader
       console.log( gl.getShaderInfoLog( fragmentShader ) )
-      gl.linkProgram( program )
-      gl.useProgram( program )
+      gl.linkProgram( drawProgram )
+      gl.useProgram( drawProgram )
       
       /* ALL ATTRIBUTE/UNIFORM INITIALIZATION MUST COME AFTER 
       CREATING/LINKING/USING THE SHADER PROGAM */
       
       // find a pointer to the uniform "time" in our fragment shader
-      uTime = gl.getUniformLocation( program, 'time' ) 
-      uRes = gl.getUniformLocation( program, 'resolution' )
+      uTime = gl.getUniformLocation( drawProgram, 'time' ) 
+      uRes = gl.getUniformLocation( drawProgram, 'resolution' )
       // send uniform values for uRes up to gpu
       gl.uniform2f( uRes, size, size )
 
       // get position attribute location in shader
-      var position = gl.getAttribLocation( program, 'a_position' )
+      var position = gl.getAttribLocation( drawProgram, 'a_position' )
       // enable the attribute
       gl.enableVertexAttribArray( position )
       // this will point to the vertices in the last bound array buffer.
