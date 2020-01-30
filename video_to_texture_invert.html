@@ -43,7 +43,7 @@
 
   <script type='text/javascript'>
     // kinda global variables... upvalues to each closure of each function in this script tag
-    let gl, uTime, uRes, drawProgram
+    let gl, uTime, uRes, drawProgram, videoTexture
 
     const size = 768
     window.onload = function() {
@@ -141,10 +141,10 @@
     
     function makeTexture() {
       // create an OpenGL texture object
-      const texture = gl.createTexture()
+      videoTexture = gl.createTexture()
       
       // this tells OpenGL which texture object to use for subsequent operations
-      gl.bindTexture( gl.TEXTURE_2D, texture )
+      gl.bindTexture( gl.TEXTURE_2D, videoTexture )
         
       // since canvas draws from the top and shaders draw from the bottom, we
       // have to flip our canvas when using it as a shader.

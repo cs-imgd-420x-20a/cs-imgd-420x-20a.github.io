@@ -73,7 +73,7 @@ gl.vertexAttribPointer( position, 2, gl.FLOAT, false, 0,0 )
   void main() {
     vec2 pos = gl_FragCoord.xy / resolution;
     vec3 video = texture2D( videoTexture, pos ).rgb;
-    vec3  = texture2D( feedbackTexture, pos ).rgb;
+    vec3 prior = texture2D( feedbackTexture, pos ).rgb;
     
     // our final output is a combination of the live video signal
     // and our feedback
@@ -85,7 +85,7 @@ gl.vertexAttribPointer( position, 2, gl.FLOAT, false, 0,0 )
 3. We'll take our previous fragment shader, which has an `id` attribute of `fragment`, and greatly simplify it. All this shader needs to do is copy data from a texture to its output. Of course, you could also perform additional manipulations either here or in the feedback shader... invert it, blur it, etc.  
 
 ```html
-<script id='render' type='x-shader/x-fragment'>
+<script id='fragment' type='x-shader/x-fragment'>
   #ifdef GL_ES
   precision mediump float;
   #endif
@@ -151,55 +151,53 @@ function render() {
   // a frame of video
   window.requestAnimationFrame( render )
   
-  if( textureLoaded === true ) { 
-    // use our feedback shader
-    gl.useProgram( feedbackProgram )  
-    // update time on CPU and GPU
-    time++
-    gl.uniform1f( uTime, time )     
-    gl.bindFramebuffer( gl.FRAMEBUFFER, framebuffer )
-    // use the framebuffer to write to our texFront texture
-    gl.framebufferTexture2D( gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, textureFront, 0 )
-    // this defines the size of the data that will be drawn onto our texture
-    gl.viewport(0, 0, size,size )
-    
-    gl.activeTexture( gl.TEXTURE0 )
-    gl.bindTexture( gl.TEXTURE_2D, videoTexture )
-    gl.uniform1i( uVideoTexture, 0 )
-    gl.texImage2D( 
-      gl.TEXTURE_2D,    // target: you will always want gl.TEXTURE_2D
-      0,                // level of detail: 0 is the base
-      gl.RGBA, gl.RGBA, // color formats
-      gl.UNSIGNED_BYTE, // type: the type of texture data; 0-255
-      video             // pixel source: could also be video or image
-    )
+  // use our feedback shader
+  gl.useProgram( feedbackProgram )  
+  // update time on CPU and GPU
+  time++
+  gl.uniform1f( uTime, time )     
+  gl.bindFramebuffer( gl.FRAMEBUFFER, framebuffer )
+  // use the framebuffer to write to our texFront texture
+  gl.framebufferTexture2D( gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, textureFront, 0 )
+  // this defines the size of the data that will be drawn onto our texture
+  gl.viewport(0, 0, size,size )
+  
+  gl.activeTexture( gl.TEXTURE0 )
+  gl.bindTexture( gl.TEXTURE_2D, videoTexture )
+  gl.uniform1i( uVideoTexture, 0 )
+  gl.texImage2D( 
+    gl.TEXTURE_2D,    // target: you will always want gl.TEXTURE_2D
+    0,                // level of detail: 0 is the base
+    gl.RGBA, gl.RGBA, // color formats
+    gl.UNSIGNED_BYTE, // type: the type of texture data; 0-255
+    video             // pixel source: could also be video or image
+  )
 
-    // in our shaders, read from texBack, which is where we poked to
-    gl.activeTexture( gl.TEXTURE1 )
-    gl.bindTexture( gl.TEXTURE_2D, textureBack )
-    gl.uniform1i( uFeedbackTexture, 1 )
-    // run shader
-    gl.drawArrays( gl.TRIANGLES, 0, 6 )
+  // in our shaders, read from texBack, which is where we poked to
+  gl.activeTexture( gl.TEXTURE1 )
+  gl.bindTexture( gl.TEXTURE_2D, textureBack )
+  gl.uniform1i( uFeedbackTexture, 1 )
+  // run shader
+  gl.drawArrays( gl.TRIANGLES, 0, 6 )
 
-    // swap our front and back textures
-    let tmp = textureFront
-    textureFront = textureBack
-    textureBack = tmp
+  // swap our front and back textures
+  let tmp = textureFront
+  textureFront = textureBack
+  textureBack = tmp
 
-    // use the default framebuffer object by passing null
-    gl.bindFramebuffer( gl.FRAMEBUFFER, null )
-    gl.viewport(0, 0, size, size )
-    // select the texture we would like to draw to the screen.
-    // note that webgl does not allow you to write to / read from the
-    // same texture in a single render pass. Because of the swap, we're
-    // displaying the state of our simulation ****before**** this render pass (frame)
-    gl.activeTexture( gl.TEXTURE0 )
-    gl.bindTexture( gl.TEXTURE_2D, textureFront )
-    // use our drawing (copy) shader
-    gl.useProgram( drawProgram )
-    // put simulation on screen
-    gl.drawArrays( gl.TRIANGLES, 0, 6 )
-  }
+  // use the default framebuffer object by passing null
+  gl.bindFramebuffer( gl.FRAMEBUFFER, null )
+  gl.viewport(0, 0, size, size )
+  // select the texture we would like to draw to the screen.
+  // note that webgl does not allow you to write to / read from the
+  // same texture in a single render pass. Because of the swap, we're
+  // displaying the state of our simulation ****before**** this render pass (frame)
+  gl.activeTexture( gl.TEXTURE0 )
+  gl.bindTexture( gl.TEXTURE_2D, textureFront )
+  // use our drawing (copy) shader
+  gl.useProgram( drawProgram )
+  // put simulation on screen
+  gl.drawArrays( gl.TRIANGLES, 0, 6 )
 }
 ```
 
