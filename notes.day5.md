@@ -209,3 +209,7 @@ let feedbackProgram,
     videoTexture, textureBack, textureFront, textureLoaded,
     video
 ```
+
+# Mini-Assignment (in-class, due Monday 2/3/20)
+
+Create a short experiment with feedback. You are welcome to use live video, but might also consider adding feedback to one of your prior assignments... feedback is very useful / fun to explore on more than just live video. Post a link to your course website to a live running shader. There is no need to create video documentation. This assignment will count as a small part of the 10% "misc/participation" portion of your grade this term.
