@@ -33,12 +33,12 @@ Resources:
 1/30 - Video feedback, motion blurs etc.  
 
 ### Week 4: Automata, Reaction Diffusion, and Rendering to Texture
-2/3 - 1D / 2D Automata, Rendering to Texture, Reaction Diffusion  
+2/3 - 1D / 2D Automata, Rendering to Texture, Reaction Diffusion. [Mini-Assignment](./automata_assignment.md) due 2/10.  
 2/7 - NO CLASS... complete the Reaction Diffusion tutorial. I'll be at [the International Conference on Live Coding](http://iclc.livecodenetwork.org/2020/schedule.html).  
 
 ### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
 2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows.  
-2/13 - Navier-Stokes and other fluid simulations  
+2/13 - Other fluid simulations.  
 
 ### Week 6: Interaction in Digital Arts
 2/17 - Guest lecture with [(Angus Forbes](https://creativecoding.soe.ucsc.edu/angus/) on interacting with fluid simulations  
