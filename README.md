@@ -44,7 +44,7 @@ Resources:
 2/17 - Guest lecture with [(Angus Forbes](https://creativecoding.soe.ucsc.edu/angus/) on interacting with fluid simulations  
 2/20 - OSC / MIDI / Mapping strategies for digital arts practice  
 
-### Week 7: CUDA & OpenCL 
+### Week 7: OpenCL + WebGPU
 2/24 - Libraries for computing on the GPU  
 2/27 - NO CLASS: Academic Advising Day  
 2/28 - READING / MAKEUP DAY  

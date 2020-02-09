@@ -7,4 +7,5 @@ The goal of this assignment is to gain experience manipulating simulations on th
 - How can we define more interesting initial conditions than pure randomness?  
 - What if we have more than two possible states?  
 - What tricks could we use to make this more visually interesting?  
+- Get rid of branching in the simulation shader by using a LUT (lookup table).
 
