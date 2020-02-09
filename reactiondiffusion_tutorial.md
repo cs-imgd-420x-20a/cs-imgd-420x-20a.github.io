@@ -162,8 +162,8 @@ Our final shader will run our simulation. This will look very familiar to you fr
 Here we grab our script tags and the text inside each of them, compile fragment and vertex shaders, and then link them into /programs/ that we can alternate between using. We’ll create two programs: one to run our shader and one to render it to the screen. Both will use the same vertex shader but paired with different fragment shaders. We’ll add some `console.log()` statements to make sure everything compiles OK. We’ll also define a uniform, `scale`to pass our simulation size up to the shader, and define an attribute, `a_position` to reference our vertex positions. The code below should go in the end of our `window.onload` function.
 
 ```js
-
-let shaderSource = shaderScript.text 
+    let shaderScript = document.getElementById( 'vshader' )
+    let shaderSource = shaderScript.text 
     const vertexShader = gl.createShader( gl.VERTEX_SHADER ) 
     gl.shaderSource( vertexShader, shaderSource ) 
     gl.compileShader( vertexShader )
