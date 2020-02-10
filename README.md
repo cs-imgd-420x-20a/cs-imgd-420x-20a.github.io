@@ -37,7 +37,7 @@ Resources:
 2/7 - NO CLASS... complete the Reaction Diffusion tutorial. I'll be at [the International Conference on Live Coding](http://iclc.livecodenetwork.org/2020/schedule.html).  
 
 ### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
-2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems. Perlin Flows.  
+2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems... MOVED. To be rescheduled. Assignment: Read the chapters on [Cellular Noise](https://thebookofshaders.com/12/) and [Fractal Brownian Motion](https://thebookofshaders.com/13/) in the Book of Shaders.
 2/13 - Other fluid simulations.  
 
 ### Week 6: Interaction in Digital Arts
