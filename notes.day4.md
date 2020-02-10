@@ -25,7 +25,7 @@ greenctx.fillStyle = 'green'
 // draw our rectangle... 350x150 are the default canvas dimensions
 greenctx.fillRect( 0,0,350,150 )
 // put the canvas on the page
-document.appendChild( greencanvas )
+document.body.appendChild( greencanvas )
 ```
 
 If you load the modified template, you should see the shader running in our original canvas and the green canvas displayed next to it.
