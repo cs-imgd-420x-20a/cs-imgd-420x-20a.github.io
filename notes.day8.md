@@ -132,6 +132,6 @@ toy( shader, (gl, shader) => {
 You also need to run `npm install gl-toy`, and then re-run `browserify` with the glslify transform enabled. 
 
 ## Live shader reloading
-We can use `budo` to enable live reloading of our shader. `budo` will start small server delivering our files, and also rerun browserify whenever we make changes to our file and automatically reload the results in any page accessing our server. We can install budo with `npm i budo`. We can then run it with `npx budo main.js --live -- -t glslify`. The `--live` option gets us the live reloading while the `-t glslify` adds the glslify transform to recompilation.
+We can use `budo` to enable live reloading of our shader. `budo` will start small server delivering our files, and also rerun browserify whenever we make changes to our file and automatically reload the results in any page accessing our server. We can install budo with `npm i budo`. We can then run it with `npx budo main.js:bundle.js --live -- -t glslify`. The `--live` option gets us the live reloading while the `-t glslify` adds the glslify transform to recompilation.
 
 Once you run the server it should tell you what port it launched on and provide a URL. 
