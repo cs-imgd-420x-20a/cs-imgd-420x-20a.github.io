@@ -92,6 +92,10 @@ Run our same browserify command again:
 
 Just for fun... let's add another function that converts an input texture to ASCII. We'll need to lower the resolution of our simplex noise to get this to work well.
 
+First install: `npm i glsl-ascii-filter`  
+
+Then replace your fragment shader:
+
 ```c
 #ifdef GL_ES
 precision mediump float;
