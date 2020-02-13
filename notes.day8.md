@@ -88,7 +88,7 @@ Run our same browserify command again:
 
 ... and now you should have time-varying 2D simplex noise if you open your HTML file. You can easily change this to 3D Worley noise (cellular noise) just by switch the glslify command in `frag.glsl` to:
 
-``
+```
 
 ## ASCII
 

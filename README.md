@@ -36,9 +36,9 @@ Resources:
 2/3 - 1D / 2D Automata, Rendering to Texture, Reaction Diffusion. [Mini-Assignment](./automata_assignment.md) due 2/10.  
 2/7 - NO CLASS... complete the Reaction Diffusion tutorial. I'll be at [the International Conference on Live Coding](http://iclc.livecodenetwork.org/2020/schedule.html).  
 
-### Week 5: Perlin Flows, Navier-Stokes, and other Fluid Simulations
+### Week 5: Perlin Flows and Modular GLSL,
 2/10 - Guest lecture with [Alexander Dupuis](http://alexanderdupuis.com/) on performing with video feedback systems... MOVED. To be rescheduled. Assignment: Read the chapters on [Cellular Noise](https://thebookofshaders.com/12/) and [Fractal Brownian Motion](https://thebookofshaders.com/13/) in the Book of Shaders.  
-2/13 - Perlin Flows / fluid simulations.  
+2/13 - Modular GLSL. [Notes](./notes.day8.md). Assignment: [Simulation](./simulation.md) due 2/20.
 
 ### Week 6: Interaction in Digital Arts
 2/17 - Guest lecture with [(Angus Forbes](https://creativecoding.soe.ucsc.edu/angus/) on interacting with fluid simulations  
