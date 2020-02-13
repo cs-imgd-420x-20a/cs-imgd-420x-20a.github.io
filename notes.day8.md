@@ -88,8 +88,6 @@ Run our same browserify command again:
 
 ... and now you should have time-varying 2D simplex noise if you open your HTML file. You can easily change this to 3D Worley noise (cellular noise) just by switch the glslify command in `frag.glsl` to:
 
-```
-
 ## ASCII
 
 Just for fun... let's add another function that converts an input texture to ASCII. We'll need to lower the resolution of our simplex noise to get this to work well.
@@ -99,18 +97,17 @@ Just for fun... let's add another function that converts an input texture to ASC
 precision mediump float;
 #endif
 
-#pragma glslify: snoiform float time;
+#pragma glslify: snoise3 = require(glsl-noise/simplex/3d)
+#pragma glslify: ascii   = require(glsl-ascii-filter)
+
+uniform float time;
 uniform vec2 resolution;
 
 void main() {
   vec2 uv = gl_FragCoord.xy / resolution;
-  float noise = snoise3( vec3(uv.x*5., uv.y*5., time/150.) )3(noise), uv );
-  gl_FragColor = vec4( asc ascse3 = require(glsl-noise/simplex/3d)
-ut,asc
-ut = asc
-ut,asc
-re(glsl-ascepragma glslify: asc
-ut, 1. );
+  float noise = snoise3( vec3(uv.x*5., uv.y*5., time/250.) );
+  float ascii_out = ascii( vec3(noise), uv );
+  gl_FragColor = vec4( .25,ascii_out,ascii_out, 1. );
 }
 ```
 
