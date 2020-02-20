@@ -14,7 +14,7 @@ Grading Rubric
 - 10% Posted to your personal course website correctly, with video in permanent hosting location. No spelling or grammatical errors.
 - 10% Summary paragraph concisely explaining technical and aesthetic goals.
 - 10% Paragraph describing feedback received and how it met / didn't meet your expectations.
-- 10% "Modular" js / glsl design. Separate files for your JavaScript file and each of your shaders, combined via browserify / glslify. Place all files in a GitHub repo and include a link to this repo on your project page.
+- 10% "Modular" js / glsl design. Separate files for your JavaScript file and each of your shaders, combined via browserify / glslify. Place all files in a GitHub repo and include a link to this repo on your project page. *Note:* as discussed in class, you don't have to use abstractions like `gl-toy` if you'd prefer to continue working with raw WebGL code. But the [gl-fbo example](http://stack.gl/packages/#stackgl/gl-fbo) should give you a good starting point if you'd like to use a higher level wrapper around the OpenGL code.
 - 35% Simluation implementation. Please include a paragraph describing the general process of implementing your simulation and any challenges you faced.
 - 15% Development of piece OR interaction design.
   - For compositions, how does your piece change over time? Is there a peak? How did you parameterize the simulation and use these parameters?
