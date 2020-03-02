@@ -16,6 +16,7 @@ There are lots of other OSC apps out there to consider, so feel free to browse o
 Here's a [nice library to use for generating and receiving OSC messages](https://github.com/russellmcc/node-osc-min). You can create a simple node.js server that listens for OSC essages with the following (after running `npm i osc-min` to install):
 
 ```js
+const udp = require('dgram');
 const osc = require('osc-min')
 
 const sock = udp.createSocket("udp4", function(msg, rinfo) {
