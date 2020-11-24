@@ -227,14 +227,14 @@ This basically just adds in dynamic velocity, and turns down the brightness of o
 ```html
   <script id='vertex' type='x-shader/x-vertex'>#version 300 es
     precision mediump float;
-    in vec4 a_pos;
+    in vec4 a_position;
     out vec4 o_vpos;
     void main() {
-      float x = a_pos.x + a_pos.z;
+      float x = a_position.x + a_position.z;
       if( x >= 1. ) x = -1.;
       
       gl_PointSize = 10.;
-      o_vpos = vec4( x, a_pos.y, a_pos.z, 1.);
+      o_vpos = vec4( x, a_position.y, a_position.z, 1.);
       gl_Position = o_vpos;
     }
   </script>
