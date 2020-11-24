@@ -257,9 +257,12 @@ This basically just adds in dynamic velocity, and turns down the brightness of o
 ```  
 
 ### Update our render function
-All we need to do here is change our call to `gl.drawArrays` to reflect the correct count, in this case `particleCount`:
+We need to change our call to `gl.drawArrays` to reflect the correct count, in this case `particleCount`:
 
 `gl.drawArrays( gl.POINTS, 0, particleCount )`
+
+... and last but not least we need to update the number of bytes being used in our `a_position` attribute to be `4` instead of `2`:
+`gl.vertexAttribPointer( position, 4, gl.FLOAT, false, 0,0 )`
 
 ### Enable blending
 Add this to our window.onload function to get blending:
