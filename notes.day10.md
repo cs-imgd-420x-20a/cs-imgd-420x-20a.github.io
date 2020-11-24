@@ -107,6 +107,8 @@ Change the buffer creation part of our `window.onload` to the following:
 
 ```js
 // create a buffer object to store vertices
+// these are deliberate globals, alternatively, you could declare them outside
+// of the onload function. they need to also be accessed inside of render()
 buffer1 = gl.createBuffer()
 buffer2 = gl.createBuffer()
 
@@ -163,7 +165,7 @@ function render() {
 }
 ```
 
-This addes in the necessary transform feedback calls, as well as swapping between our read/write buffers of data.
+This addes in the necessary transform feedback calls, as well as swapping between our read/write buffers of data. *NOTE THAT YOU'LL ALSO NEED TO MAKE SURE THAT THE `position` VARIABLE IS ACCESSIBLE INSIDE OF THIS FUNCTION*. You can fix that by adding a variable declaration at the ttop
 
 ### Update our vertex shader
 
@@ -171,16 +173,16 @@ Last but not least:
 ```c
 #version 300 es
 precision mediump float;
-in vec2 a_pos;
+in vec2 a_position;
 
 out vec2 o_vpos;
 
 void main() {
-  float x = a_pos.x + .01;
+  float x = a_position.x + .01;
   if( x >= 1. ) x = -1.;
   
   gl_PointSize = 5.;
-  o_vpos = vec2( x, a_pos.y );
+  o_vpos = vec2( x, a_position.y );
   
   gl_Position = vec4( o_vpos, 0., 1. );
 }
